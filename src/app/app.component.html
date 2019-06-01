@@ -1,0 +1,58 @@
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko&display=swap&subset=latin-ext" rel="stylesheet">
+ 
+
+
+<div style="height: 80vh;">
+
+
+  <mat-toolbar id="toolbar" >
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm style="margin-top: -5vh">
+        <mat-icon >menu</mat-icon>
+      </button>
+      
+<a routerLink="/home">
+<div id="logo1" class="animated once heartBeat delay-0.5s" >
+ <ul >
+   <li id="name" >NAZWA FIRMY</li>
+   <li id="podtytul">Chłodnictwo | Klimatyzacja</li>
+  </ul>
+</div>
+</a>
+
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md>
+    <div id="kontaktbar"  class="animated once fadeInRight delay-0.5s" > 
+       <h2 id="contactbar2">Masz pytania? Zadzwoń +48 509 808 850</h2>
+    </div>
+ 
+
+
+    <div id="menuhorisontal">
+    <a routerLink="/home" mat-button>HOME</a>
+    <a routerLink="/klimatyzacje" mat-button>KLIMATYZACJE</a>
+    <a routerLink="/chlodnictwo" mat-button>CHŁODNICTWO</a>
+    <a routerLink="/realizacje" mat-button>REALIZACJE</a>
+    <a routerLink="/certyfikaty" mat-button>CERTYFIKATY</a>
+    <a routerLink="/kontakt" mat-button>KONTAKT</a>
+      </div> </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill >
+    <mat-sidenav #sidenav style="width: 40%">
+      <mat-nav-list >
+      
+
+        <a routerLink="/home" mat-button>HOME</a>
+        <a routerLink="/klimatyzacje" mat-button>KLIMATYZACJE</a>
+        <a routerLink="/chlodnictwo" mat-button>CHŁODNICTWO</a>
+        <a routerLink="/realizacje" mat-button>REALIZACJE</a>
+        <a routerLink="/certyfikaty" mat-button>CERTYFIKATY</a>
+        <a routerLink="/kontakt" mat-button>KONTAKT</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>

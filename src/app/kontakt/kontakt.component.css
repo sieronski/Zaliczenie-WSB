@@ -1,0 +1,146 @@
+
+
+
+agm-map{
+    width: 100%;
+    height: 40vh;
+    margin-top: 6vh;
+    display: block;
+    
+}
+
+
+#wrapper{
+    margin-top: 10vh;
+    font-family: 'Teko', sans-serif;
+    height: 100%;
+    float: left;
+    font-size: 3vh;
+    display: block;
+    margin-left: 35vh;
+}
+
+#contact{
+  
+    display: block;
+ 
+    font-size: 3vh;
+    margin-top: 5vh;
+    color: black;
+    width: 100%;
+    display: block;
+    margin: auto;
+   
+}
+#contactwrapper{
+    margin: auto;
+    float: right;
+    margin-right: 30vh;
+    margin-top: 10vh;
+}  
+
+
+
+
+form{
+    font-family: 'Teko', sans-serif;
+    color: black
+}
+
+
+
+#message{
+    margin-top: -2vh;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    float: right;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    font-size: 2vh;
+
+
+}
+
+#name{
+   float: right;
+    width: 40vh;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    height: 4vh;
+
+}
+
+#surname{
+    float: right;
+    width: 40vh;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    height: 4vh;
+
+
+}
+
+#email{
+    float: right;
+    width: 40vh;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    height: 4vh;
+    margin-bottom: 6.5vh;
+
+
+}
+
+
+input{
+    font-family: 'Teko', sans-serif;
+    font-size: 3vh;
+}
+
+
+#dane{
+    
+    font-size: 2.5vh;
+    display: block;
+    line-height: 1PX;
+}
+#NAZWAFIRMY{
+    font-size: 3vh;
+}
+
+
+header{
+    width: 100%;
+    height:15vh;
+    background-color: rgb(0, 110, 253);
+    display: block;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    padding-top: 1vh;
+
+}
+
+
+#headermainfont{
+    font-size: 5vh;
+    line-height: 0px;
+    margin-bottom: 3vh
+}
+
+hr{
+    width: 17vh;
+}
+
+
+button{
+    margin-top: 2vh;
+    margin-left: 44vh;
+}
+
+#send{
+    font-size: 40px;
+}

@@ -1,0 +1,61 @@
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko&display=swap&subset=latin-ext" rel="stylesheet">
+    
+
+
+
+
+<header>
+   <p id="headermainfont"> KONTAKT </p> 
+    <hr />
+    nazwa firmy
+
+</header>
+
+<div id="wrapper">
+<div id="dane">
+<p id="NAZWAFIRMY">NAZWA FIRMY</p>
+<p>nip: 555555555</p>
+<p>regon: 55555555</p>
+<p>adres: w dupie na rakach w pizdzie na wygwizdzie</p>
+<p> w pizdzie na wygwizdzie</p>
+<p>telefon: 0700-666-666</p>
+
+</div>
+<agm-map> </agm-map>
+</div>
+
+<div id="contactwrapper">
+<form id="contact">
+    SKONTAKTUJ SIĘ Z NAMI!
+    <div>
+        <label for="name">Imię:&nbsp;&nbsp;</label>
+    <input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="name" name="name">
+    </div>
+<div>
+    <label for="surname">Nazwisko:&nbsp;&nbsp;</label>
+       <input type="text" class="form-control" id="surname"
+       required
+       [(ngModel)]="surname" name="surname">
+    </div>
+<div>  
+       <label for="email">E-mail:&nbsp;&nbsp;</label>
+       <input type="text" class="form-control" id="email"
+       required
+       [(ngModel)]="email" name="email">
+    </div>
+<div>
+       <label for="message">Wiadomość: &nbsp;&nbsp;</label> 
+       <textarea type="text" class="form-control" id="message"
+       required
+       [(ngModel)]="message" name="message"> </textarea>
+       
+    </div>
+    <button mat-button (click)="onSubmit()">WYŚLIJ</button>
+    </form>
+
+</div>
+

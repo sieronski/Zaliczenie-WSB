@@ -1,0 +1,179 @@
+a{
+  text-decoration: none;
+}
+
+
+.menu-spacer {
+  flex: 1 1 auto;
+}
+.menu-spacer {
+  flex: 1 1 auto;
+}
+.menu-spacer {
+  flex: 1 1 auto;
+}
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+
+}
+
+.basic-container {
+  padding: 30px;
+  height: 59px;
+  opacity: 100%;
+  color: white;
+  text-decoration: bold;
+}
+
+#menu{
+  margin-top: -15vh;
+}
+
+.logo1{
+  
+    float: left;
+    height: 45px;
+    color: white;
+    display: block;
+    text-align: center;
+
+}
+
+#name{
+  
+  margin-top: -40px;
+  font-size: 320%;
+  line-height: 70px;
+  color: red;
+  font-family: 'Anton', sans-serif;
+  display: box;
+  margin-left: 7%;
+  list-style-type: none;
+}
+
+#logo{
+  margin-top: -15%;
+  line-height: 40px;
+  display: box;
+
+}
+#podtytul{
+  display: inline;
+  font-size:180%;
+  font-family: 'Teko', sans-serif;
+  color:rgb(170, 170, 170);
+  list-style-type: none;
+  padding-left: 14%;
+  
+  
+}
+
+
+
+
+#contactbar2{
+  margin-left: 5vh;
+  display: block;
+  margin-top: 1vh;
+
+
+}
+
+#toolbar{
+  background-color: rgb(255, 255, 255);
+  color: rgb(70, 70, 70);
+  height: 10vh;
+  margin-top:7vh;
+
+}
+
+
+#button{
+  margin-top: 6%;
+}
+#toolbar-row{
+  line-height: 1000px;
+}
+
+
+mat-sidenav-container{
+  opacity: 100%;
+}
+
+
+a{
+  clear: both;
+} */
+/* THUMBS */
+
+#bordermenu{
+  width: 10%;
+}
+
+#bordermenuwrapper{
+  width: 15%;
+
+
+}
+
+#mat-sidenav-container{
+  opacity: 100%;
+}
+
+#menutopbar{
+  margin-top: 3%;
+}
+
+header{
+  width: 100%;
+  height:15vh;
+  background-color: rgb(0, 110, 253);
+  display: block;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  padding-top: 1vh;
+
+}
+
+
+#headermainfont{
+  font-size: 5vh;
+  line-height: 0px;
+  margin-bottom: 3vh
+}
+
+hr{
+  width: 17vh;
+}
+
+
+#menuhorisontal{
+font-size: 3vh;
+display: block;
+margin-bottom: -9vh;
+
+}
+
+#kontaktbar{
+  position: absolute;
+  width: 100%;
+  font-size:95%;
+  text-decoration: bold;
+  padding-top: 1vh; 
+  color: white;
+  height: 1vh;
+  border-top: -100px solid transparent;
+	border-right: 0px solid transparent;
+	border-left: 40px solid transparent;
+	border-bottom: 40px solid rgb(0, 110, 253);
+  margin-top: -12.1vh;
+  margin-right: -3vh;
+  font-family: 'Teko', sans-serif;
+  display: block;
+ 
+}
