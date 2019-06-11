@@ -1,5 +1,4 @@
 import { NgModule }             from '@angular/core';
-import { AppComponent }             from '../app/app.component';
 import { KontaktComponent }             from '../app/kontakt/kontakt.component';
 import { RouterModule, Routes } from '@angular/router';
 import { KlimatyzacjeComponent } from '../app/klimatyzacje/klimatyzacje.component';
@@ -11,7 +10,7 @@ import { RekuperacjaComponent } from '../app/rekuperacja/rekuperacja.component';
 
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'kontakt', component: KontaktComponent },
   { path: 'klimatyzacje', component: KlimatyzacjeComponent },
   { path: 'chlodnictwo', component: ChlodnictwoComponent },
