@@ -7,6 +7,7 @@ import { ChlodnictwoComponent } from '../app/chlodnictwo/chlodnictwo.component';
 import { HomeComponent } from '../app/home/home.component';
 import { RealizacjeComponent } from '../app/realizacje/realizacje.component';
 import { CertyfikatyComponent } from '../app/certyfikaty/certyfikaty.component';
+import { RekuperacjaComponent } from '../app/rekuperacja/rekuperacja.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,8 @@ const routes: Routes = [
   { path: 'realizacje', component: RealizacjeComponent },
   { path: 'certyfikaty', component: CertyfikatyComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'rekuperacja', component: RekuperacjaComponent },
+
 
 
 

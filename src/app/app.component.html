@@ -34,6 +34,7 @@
     <a routerLink="/home" mat-button>HOME</a>
     <a routerLink="/klimatyzacje" mat-button>KLIMATYZACJE</a>
     <a routerLink="/chlodnictwo" mat-button>CHŁODNICTWO</a>
+    <a routerLink="/rekuperacja" mat-button>REKUPERACJA</a>
     <a routerLink="/realizacje" mat-button>REALIZACJE</a>
     <a routerLink="/certyfikaty" mat-button>CERTYFIKATY</a>
     <a routerLink="/kontakt" mat-button>KONTAKT</a>
@@ -42,17 +43,18 @@
   </mat-toolbar>
 
   <mat-sidenav-container fxFlexFill >
-    <mat-sidenav #sidenav style="width: 40%">
+    <mat-sidenav #sidenav style="width: 20vh">
       <mat-nav-list >
       
 
         <a routerLink="/home" mat-button>HOME</a>
         <a routerLink="/klimatyzacje" mat-button>KLIMATYZACJE</a>
         <a routerLink="/chlodnictwo" mat-button>CHŁODNICTWO</a>
+        <a routerLink="/rekuperacja" mat-button>REKUPERACJA</a>
         <a routerLink="/realizacje" mat-button>REALIZACJE</a>
         <a routerLink="/certyfikaty" mat-button>CERTYFIKATY</a>
         <a routerLink="/kontakt" mat-button>KONTAKT</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
-      <router-outlet></router-outlet>
+        <router-outlet></router-outlet>

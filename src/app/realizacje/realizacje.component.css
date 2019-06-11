@@ -21,3 +21,9 @@ header{
 hr{
     width: 17vh;
 }
+
+#gallerywrapper{
+
+    text-align: center;
+    margin-top: 10vh;
+}

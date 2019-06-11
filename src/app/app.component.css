@@ -54,6 +54,19 @@ body {
   list-style-type: none;
 }
 
+@media screen and (max-width: 70vh) {
+  #name {
+  margin-top: -40px;
+  font-size: 150%;
+  line-height: 7px;
+  color: red;
+  font-family: 'Anton', sans-serif;
+  display: box;
+  margin-left: -2%;
+  list-style-type: none;
+  }
+}
+
 #logo{
   margin-top: -15%;
   line-height: 40px;
@@ -71,13 +84,28 @@ body {
   
 }
 
+@media screen and (max-width: 70vh) {
+  #podtytul{
+    display: inline;
+    font-size:80%;
+    font-family: 'Teko', sans-serif;
+    color:rgb(170, 170, 170);
+    list-style-type: none;
+    padding-left: 5%;
+    }
+  
+}
+
 
 
 
 #contactbar2{
-  margin-left: 5vh;
+ width: 100%;
   display: block;
   margin-top: 1vh;
+  display: block;
+  position: absolute;
+margin-left: 20vh;
 
 
 }
@@ -161,7 +189,7 @@ margin-bottom: -9vh;
 
 #kontaktbar{
   position: absolute;
-  width: 100%;
+  width: 80vh;
   font-size:95%;
   text-decoration: bold;
   padding-top: 1vh; 
@@ -172,7 +200,7 @@ margin-bottom: -9vh;
 	border-left: 40px solid transparent;
 	border-bottom: 40px solid rgb(0, 110, 253);
   margin-top: -12.1vh;
-  margin-right: -3vh;
+margin-left: 18vh;
   font-family: 'Teko', sans-serif;
   display: block;
  

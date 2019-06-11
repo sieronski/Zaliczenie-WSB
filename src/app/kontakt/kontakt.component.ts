@@ -9,7 +9,8 @@ import { AngularFirestore } from '@angular/fire/firestore';
   styleUrls: ['./kontakt.component.css']
 })
 export class KontaktComponent implements OnInit {
-  
+  latitude = 51.732650;
+  longitude = 18.210629;
   name: string;
   surname: string;
   email: string;

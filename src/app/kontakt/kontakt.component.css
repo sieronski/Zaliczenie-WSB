@@ -2,12 +2,26 @@
 
 
 agm-map{
-    width: 100%;
+    width: 140%;
     height: 40vh;
     margin-top: 6vh;
     display: block;
     
 }
+
+@media screen and (max-width: 70vh) {
+    agm-map {
+     top: 50%;
+     float: left;
+     margin-left: auto;
+     width: 30vh;
+     margin-left: -31.5vh;
+     position: absolute;
+
+     display: block;
+     
+    }
+  }
 
 
 #wrapper{
@@ -20,10 +34,24 @@ agm-map{
     margin-left: 35vh;
 }
 
+@media screen and (max-width: 70vh) {
+    #dane {
+     display: block;
+     float: left;
+     margin-left: auto;
+     width: 30vh;
+     margin-left: -31.5vh;
+     padding-bottom: 10%;
+     flex-direction: column;
+     position: absolute;
+     bottom: 60%;
+     top: 30%;
+    }
+  }
+
 #contact{
   
     display: block;
- 
     font-size: 3vh;
     margin-top: 5vh;
     color: black;
@@ -62,6 +90,8 @@ form{
 
 
 }
+
+
 
 #name{
    float: right;
@@ -141,6 +171,84 @@ button{
     margin-left: 44vh;
 }
 
+/* @media screen and (max-width: 70vh) {
+    button{
+    top: 150vh;
+    bottom: 1vh;
+    left: -14vh;
+     position: absolute;
+     margin-top: 2vh;
+     
+    }
+    #name{
+        top: 150vh;
+        bottom: 1vh;
+        left: -14vh;
+         position: absolute;
+         margin-top: 2vh;
+
+    }
+  } */
+
+  @media screen and (max-width: 70vh){
+    #contactwrapper{
+        position: absolute;
+        top: 110%;
+
+    }
+    #message{
+        position: absolute;
+        width: 50vh;
+        left: -10vh;
+        top: 35vh;
+    }
+    #name{
+        
+        float: left;
+        width: 40vh;
+        background-color: rgb(235, 235, 235);
+        border: none;
+        height: 4vh;
+    }
+    #surname{
+        float: left;
+        width: 40vh;
+        background-color: rgb(235, 235, 235);
+        border: none;
+        height: 4vh;
+    
+    
+    }
+    #email{
+        float: left;
+        width: 40vh;
+        background-color: rgb(235, 235, 235);
+        border: none;
+        height: 4vh;
+        margin-bottom: 8.5vh;
+    }
+        button{
+            top: 68vh;
+            left: -30vh;
+             position: absolute;
+             margin-top: 2vh;
+             
+            }
+            app-footer{
+                position: absolute;
+                top: 230%;
+                width: 40vh;
+                float: left;
+                left: 0vh;
+                text-align: center;
+
+            }
+    
+    
+    
+  }
+
 #send{
     font-size: 40px;
 }
+

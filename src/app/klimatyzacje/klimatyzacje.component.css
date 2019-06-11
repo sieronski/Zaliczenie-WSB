@@ -1,60 +1,3 @@
-#wrapperslajd{
-    display: block; 
-    margin-top: 10vh;
-    clear: both;
-    width: 100%;
-    color: rgb(70, 70, 70);
-    font-family: 'Teko', sans-serif;
-    margin-left: 1vh;  
-  }
-    
-  #slajdimg{  
-    float: right;
-    margin-right: 1vh;
-  }
-  
-  #slajdimg2{
-    width:90vh;
-    float: left;
-    margin-right: 1vh;
-  }
-      
-  #paragraffoto{
-    background-image: url('https://spm.net.pl/wp-content/uploads/2018/02/IMG_0086.jpg');
-  }
-    
-    
-    
-    
-    
-  #paragraffoto2{
-    background-image: url('https://www.kobieta.pl/media/cache/gallery_view/uploads/media/default/0002/86/uscisk-dloni-potrafi-zdradzic-duzo-wiecej-niz-sami-chcielibysmy-o-sobie-powiedziec.jpeg');
-  }
-
-  header{
-    width: 100%;
-    height:15vh;
-    background-color: rgb(0, 110, 253);
-    display: block;
-    color: white;
-    font-family: 'Teko', sans-serif;
-    font-size: 2vh;
-    text-align: center;
-    padding-top: 1vh;
-
-}
-
-
-#headermainfont{
-    font-size: 5vh;
-    line-height: 0px;
-    margin-bottom: 3vh
-}
-
-hr{
-    width: 17vh;
-}
-
 header{
   width: 100%;
   height:15vh;
@@ -68,13 +11,231 @@ header{
 
 }
 
-
 #headermainfont{
   font-size: 5vh;
   line-height: 0px;
   margin-bottom: 3vh
 }
-
 hr{
   width: 17vh;
+}
+#wrapper{
+width: 100%;
+height: 100%;
+margin: auto;
+text-align: center;
+
+}
+.foto{
+float: left;
+display: block;
+width:70vh;
+height: 43vh;
+background-image: url('https://www.giko.pl/wp-content/uploads/2018/08/komora-chlodnicza.jpg');
+background-size: 100%;
+margin-left: 5vh;
+margin-top: 10vh;
+
+
+
+}
+.foto2{
+float: left;
+display: block;
+width:70vh;
+height: 55vh;
+margin-left: 5vh;
+margin-top: 10vh;
+background-image: url('https://wentshop.pl/userdata/gfx/fab30994da19383a6b63e88620a3bf98.jpg');
+background-size: 100%;
+
+}
+.foto3{
+float: left;
+display: block;
+width:70vh;
+height: 43vh;
+background-image: url('https://www.giko.pl/wp-content/uploads/2018/08/komora-chlodnicza.jpg');
+background-size: 100%;
+margin-left: 5vh;
+margin-top: 10vh;
+
+
+
+}
+.foto4{
+float: left;
+display: block;
+width:70vh;
+height: 43vh;
+margin-left: 5vh;
+margin-top: 10vh;
+background-image: url('hhttps://image.ceneostatic.pl/data/products/43824787/i-viessmann-komora-chlodnicza-z-agregatem-cs-0900-t-i-regalami-2100x2100x2110-mm-tecto-wl-80-classicedition-pakiet-4-wl80p4x2110.jpg');
+background-size: 100%;
+
+}
+#wrappertext{
+float: left;
+display: block;
+max-width: 70vh;
+max-height: 100%;
+margin: 5vh; 
+text-align: justify;
+font-family: 'Teko', sans-serif;
+font-size: 3vh;
+
+}
+#wrappertext2{
+float: left;
+display: block;
+max-width: 70vh;
+max-height: 100%;
+margin: 5vh; 
+text-align: justify;
+font-family: 'Teko', sans-serif;
+font-size: 3vh;
+}
+#wrappertext3{
+float: left;
+display: block;
+max-width: 70vh;
+max-height: 100%;
+margin: 5vh; 
+text-align: justify;
+font-family: 'Teko', sans-serif;
+font-size: 3vh;
+
+}
+#wrappertext4{
+float: left;
+display: block;
+max-width: 70vh;
+max-height: 100%;
+margin: 5vh; 
+text-align: justify;
+font-family: 'Teko', sans-serif;
+font-size: 3vh;
+
+}
+#line{
+width: 100%;
+display: block;
+
+}
+#speacer{
+width: 100%;
+position: absolute;
+clear: both;
+}
+
+
+
+@media screen and (max-width: 70vh) {
+.foto {
+  display: block ;
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  width: 90%;
+  height: 15.9vh;
+  position: absolute;
+  top: 125%;
+  display: none;
+}
+.foto2 {
+  margin-left: auto;
+  display: block ;
+  top: 50%;
+  width: 90%;
+  height: 20vh;
+  position: absolute;
+  display: none;
+
+}
+.foto3 {
+  margin-left: auto;
+  display: block ;
+  top: 50%;
+  width: 90%;
+  height: 20vh;
+  display: none;
+
+
+}
+.foto4 {
+  margin-left: auto;
+  display: block ;
+  top: 50%;
+  width: 90%;
+  height: 20vh;
+  display: none;
+}
+.wrappertext {
+  display: block ;
+  position: absolute;
+  max-width: 70vh;
+  height: 100%;
+  text-align: justify;
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+}
+.wrappertext2{
+  position: absolute;
+  max-width: 70vh;
+  height: 100%;
+  text-align: justify;
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+  top: 50vh;
+  
+}
+
+
+.wrappertext3{
+  display: block ;
+  position: absolute;
+  max-width: 70vh;
+  height: 100%;
+  clear: both;
+  font-size: 1%;
+ margin-bottom: -150%;
+}
+.wrappertext4{
+  display: block ;
+  position: absolute;
+  max-width: 70vh;
+  height: 100%;
+  clear: both;
+  font-size: 1%;
+ margin-bottom: -150%;
+}
+p{
+font-size: 2vh;
+text-align: justify;
+}
+
+h2{
+font-size: 3vh;
+text-align: center;
+}
+
+#line1{
+display: none;
+}
+#nazwafirmy{
+display: none;
+}
+
+header{
+width: 100%;
+  height:15vh;
+  background-color: rgb(0, 110, 253);
+  display: block;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  padding-top: 1vh;
+}
+
 }

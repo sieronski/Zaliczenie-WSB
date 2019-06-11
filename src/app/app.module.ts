@@ -21,6 +21,11 @@ import { MapsComponent } from './maps/maps.component';
 import { CommonModule } from '@angular/common';
 import {AgmCoreModule} from '@agm/core';
 
+
+import { NgxGalleryModule } from 'ngx-gallery';
+import { RekuperacjaComponent } from './rekuperacja/rekuperacja.component';
+import { FooterComponent } from './footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +35,9 @@ import {AgmCoreModule} from '@agm/core';
     HomeComponent,
     RealizacjeComponent,
     CertyfikatyComponent,
-    MapsComponent
+    MapsComponent,
+    RekuperacjaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +55,8 @@ import {AgmCoreModule} from '@agm/core';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     CommonModule,
-    AgmCoreModule.forRoot({ apiKey: 'AIzaSyCmVvbXmHxa3mo_fIvbQFmsw_XVKf2iE-o'})
+    AgmCoreModule.forRoot({ apiKey: 'AIzaSyCmVvbXmHxa3mo_fIvbQFmsw_XVKf2iE-o'}),
+    NgxGalleryModule
    
 
    
